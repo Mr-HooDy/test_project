@@ -7,7 +7,12 @@ package com.company.entity;
  */
 public class Admin {
 
-    public void makeModerator(){
-        System.out.println("Making a person  moderator");
+    public void makePersonModerator(){
+        System.out.println("Making a person as moderator");
     }
+
+    public void makePersonAdmin(){
+        System.out.println("Making a person as admin");
+    }
+
 }

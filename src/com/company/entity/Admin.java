@@ -16,10 +16,10 @@ public class Admin {
     }
 
     public void makePersonUser() {
-        System.out.println("Making a person as admin");
+        System.out.println("Making a person as user");
     }
 
     public void makePersonAdvanced() {
-        System.out.println("Making a person as admin");
+        System.out.println("Making a person as advanced user");
     }
 }

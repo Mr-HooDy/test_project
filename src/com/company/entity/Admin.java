@@ -7,19 +7,19 @@ package com.company.entity;
  */
 public class Admin {
 
-    public void makePersonModerator() {
-        System.out.println("Making a person as moderator");
+    public void makePersonModerator(User user) {
+        System.out.println("Making " + user.getName() + " as moderator" );
     }
 
-    public void makePersonAdmin() {
-        System.out.println("Making a person as admin");
+    public void makePersonAdmin(User user) {
+        System.out.println("Making " + user.getName() + " as admin");
     }
 
-    public void makePersonUser() {
-        System.out.println("Making a person as user");
+    public void makePersonUser(User user) {
+        System.out.println("Making " + user.getName() + " as user");
     }
 
-    public void makePersonAdvanced() {
-        System.out.println("Making a person as advanced user");
+    public void makePersonAdvanced(User user) {
+        System.out.println("Making " + user.getName() + " as advanced user");
     }
 }

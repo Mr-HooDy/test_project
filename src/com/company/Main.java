@@ -7,5 +7,6 @@ public class Main {
         last_class l = new last_class();
 	    System.out.println("H");
         System.out.println("ChangesByVlad");
+        System.out.println("Conflict");
     }
 }
